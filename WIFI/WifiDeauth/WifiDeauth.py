@@ -1,11 +1,8 @@
-from scapy.all import RadioTap, Dot11, Dot11Deauth, sendp, get_if_hwaddr
+from scapy.all import RadioTap, Dot11, Dot11Deauth, sendp
 from os import system, geteuid
-import sys
 import colorama
 import argparse
 colorama.init(autoreset=True)
-
-import subprocess
 
 
 logo = f"""
